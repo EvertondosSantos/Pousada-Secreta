@@ -44,7 +44,7 @@ header{
 }
 
 .banner{
-    background-image: url("/assets/img-fundo.jpg");
+    background-image: url("../assets/img-fundo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -52,6 +52,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 }
 .banner div{
     background-color: rgba(2, 163, 101, 0.568);
